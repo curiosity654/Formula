@@ -1,0 +1,57 @@
+{
+    "train": {
+        "learning rate": 0.001,
+        "lr decay": 0.99,
+        "optimizer": "momentun",
+        "momentun parameter": 0.95,
+        "num epochs": 500,
+        "use batch": true,
+        "batch size": 200,
+        "evaluate interval": 1,
+        "lr update": true,
+        "snapshot": false,
+        "snapshot interval": 20,
+        "finetune": false,
+        "pretrain model": "./iter20.formula"
+    },
+    "net": [
+        {
+            "name": "conv1",
+            "type": "Conv",
+            "channels": 5,
+            "height": 3,
+            "width": 3,
+            "padding": 1,
+            "stride": 1
+        },
+        {
+            "name": "relu1",
+            "type": "Relu"
+        },
+        {
+            "name": "pool1",
+            "type": "Pool",
+            "height": 2,
+            "width": 2,
+            "stride": 1
+        },
+        {
+			"name":"conv2", 
+			"type":"Conv",  
+			"channels":10,
+			"height":6,
+			"width":6, 
+			"padding":1,		
+			"stride":1		
+		},
+		{
+			"name":"fc1",  
+			"type":"Fc",   
+			"channels":10
+		},
+		{
+			"name":"softmax",
+			"type":"Softmax" 
+		}
+    ]
+}
