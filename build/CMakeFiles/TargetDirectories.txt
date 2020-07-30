@@ -1,0 +1,4 @@
+/Users/curiosity/Desktop/Dev/AI Framework/Formula/build/CMakeFiles/rebuild_cache.dir
+/Users/curiosity/Desktop/Dev/AI Framework/Formula/build/CMakeFiles/edit_cache.dir
+/Users/curiosity/Desktop/Dev/AI Framework/Formula/build/CMakeFiles/main.dir
+/Users/curiosity/Desktop/Dev/AI Framework/Formula/build/CMakeFiles/formula.dir

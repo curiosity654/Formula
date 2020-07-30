@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/layer.h
+iostream
+-
+
+../include/net.h
+iostream
+-
+vector
+-
+unordered_map
+-
+layer.h
+../include/layer.h
+
+/Users/curiosity/Desktop/Dev/AI Framework/Formula/main.cpp
+iostream
+-
+net.h
+/Users/curiosity/Desktop/Dev/AI Framework/Formula/net.h
+
